@@ -28,7 +28,7 @@ flag 	= {
 
 #########################################
 ############ Restricted Area ############
-#########################################s
+#########################################
 
 def writeIntoFile(filename, stdout, method='w+'):
 	with open(filename, method) as f: f.write(stdout)
